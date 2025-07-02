@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text Over Image</title>
+  <style>
+    .image-container {
+      position: relative;
+      text-align: center;
+      color: white;
+      width: 60%;
+      margin: 40px auto;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .centered-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.5); /* Optional: background for better contrast */
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="image-container">
+    <img src="Img/heart stitch.jpg" alt="">
+    <div class="centered-text">Hello, Stitch World!</div>
+  </div>
+
+</body>
+</html>
